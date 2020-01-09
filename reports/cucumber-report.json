@@ -14,7 +14,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 942301
+              "duration": 870300
             },
             "line": 9,
             "match": {
@@ -27,7 +27,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 217300
+              "duration": 249300
             },
             "line": 10,
             "match": {
@@ -40,7 +40,7 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 385700
+              "duration": 425000
             },
             "line": 11,
             "match": {
@@ -53,7 +53,7 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 191999
+              "duration": 212899
             },
             "line": 12,
             "match": {
@@ -66,7 +66,7 @@
             "name": "the user inserts a 10 kr coin",
             "result": {
               "status": "passed",
-              "duration": 215000
+              "duration": 196800
             },
             "line": 13,
             "match": {
@@ -79,7 +79,7 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 73501
+              "duration": 72199
             },
             "line": 14,
             "match": {
@@ -92,7 +92,7 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 166800
+              "duration": 190400
             },
             "line": 15,
             "match": {
@@ -105,7 +105,7 @@
             "name": "the user recieves 1 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 131901
+              "duration": 170899
             },
             "line": 16,
             "match": {
@@ -117,7 +117,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1680256600
+              "duration": 1722861399
             },
             "hidden": true,
             "match": {
@@ -140,7 +140,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 77500
+              "duration": 86700
             },
             "line": 9,
             "match": {
@@ -153,7 +153,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 66500
+              "duration": 65700
             },
             "line": 10,
             "match": {
@@ -166,7 +166,7 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 73501
+              "duration": 70699
             },
             "line": 11,
             "match": {
@@ -179,7 +179,7 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 67800
+              "duration": 67000
             },
             "line": 12,
             "match": {
@@ -192,7 +192,7 @@
             "name": "the user inserts a 5 kr coin",
             "result": {
               "status": "passed",
-              "duration": 51800
+              "duration": 53300
             },
             "line": 13,
             "match": {
@@ -205,7 +205,7 @@
             "name": "the user inserts a 5 kr coin",
             "result": {
               "status": "passed",
-              "duration": 59100
+              "duration": 58399
             },
             "line": 14,
             "match": {
@@ -218,7 +218,7 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 43200
+              "duration": 59299
             },
             "line": 15,
             "match": {
@@ -231,7 +231,7 @@
             "name": "the user recieves 1 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 53300
+              "duration": 73600
             },
             "line": 16,
             "match": {
@@ -243,7 +243,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1616347400
+              "duration": 1609592001
             },
             "hidden": true,
             "match": {
@@ -266,7 +266,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 90600
+              "duration": 69701
             },
             "line": 9,
             "match": {
@@ -279,7 +279,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 67100
+              "duration": 60001
             },
             "line": 10,
             "match": {
@@ -292,7 +292,7 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 93499
+              "duration": 67301
             },
             "line": 11,
             "match": {
@@ -305,7 +305,7 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 73001
+              "duration": 56199
             },
             "line": 12,
             "match": {
@@ -318,7 +318,7 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 63600
+              "duration": 63100
             },
             "line": 13,
             "match": {
@@ -331,7 +331,7 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 84600
+              "duration": 59301
             },
             "line": 14,
             "match": {
@@ -344,7 +344,7 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 58199
+              "duration": 58099
             },
             "line": 15,
             "match": {
@@ -357,7 +357,7 @@
             "name": "the user recieves 0 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 319400
+              "duration": 278700
             },
             "line": 16,
             "match": {
@@ -369,7 +369,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1608501399
+              "duration": 1606394800
             },
             "hidden": true,
             "match": {
@@ -392,7 +392,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 73199
+              "duration": 72701
             },
             "line": 9,
             "match": {
@@ -405,7 +405,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 63000
+              "duration": 69799
             },
             "line": 10,
             "match": {
@@ -418,7 +418,7 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 60500
+              "duration": 58900
             },
             "line": 11,
             "match": {
@@ -431,7 +431,7 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 69699
+              "duration": 75699
             },
             "line": 12,
             "match": {
@@ -444,7 +444,7 @@
             "name": "the user inserts a \"byxknapp\" kr coin",
             "result": {
               "status": "passed",
-              "duration": 1085799
+              "duration": 1068101
             },
             "line": 13,
             "match": {
@@ -457,7 +457,7 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 70299
+              "duration": 70500
             },
             "line": 14,
             "match": {
@@ -470,7 +470,7 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 42099
+              "duration": 41100
             },
             "line": 15,
             "match": {
@@ -483,7 +483,7 @@
             "name": "the user recieves 1 cup of coffee.",
             "result": {
               "status": "failed",
-              "duration": 1296300,
+              "duration": 1280900,
               "error_message": "AssertionError: Didn't get any coffee? You should. We inserted enough.: expected undefined to deeply equal 'here\\'s your coffee'\n    at Function.assert.deepEqual (C:\\dev\\cucumber-exempel-2\\node_modules\\chai\\lib\\chai\\interface\\assert.js:216:32)\n    at createWorld.<anonymous> (C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:148:14)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
             },
             "line": 16,
@@ -496,7 +496,140 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1713566099
+              "duration": 1723662401
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
+                "mime_type": "image/png"
+              }
+            ],
+            "match": {
+              "location": "C:\\dev\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 68599
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 58400
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 65800
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 78100
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 60501
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 57100
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 40999
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:126"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 2 cup of coffee.",
+            "result": {
+              "status": "failed",
+              "duration": 201001,
+              "error_message": "AssertionError: Did you get coffee? You shouldn't. We didn't insert enough money!: expected 'here\\'s your coffee' to not deeply equal 'here\\'s your coffee'\n    at Function.assert.notDeepEqual (C:\\dev\\cucumber-exempel-2\\node_modules\\chai\\lib\\chai\\interface\\assert.js:235:36)\n    at createWorld.<anonymous> (C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:155:14)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:143"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1714126199
             },
             "hidden": true,
             "embeddings": [

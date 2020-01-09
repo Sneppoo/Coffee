@@ -1,0 +1,35 @@
+##properties
+electricity (boolean)
+-do we have power?
+
+waterAvailable(boolean)
+-we need water to make coffee
+
+fillWithCoffee(number)
+-fill with more so we dont run out
+
+fillWithCups(number)
+-Can't run out
+
+startButton()
+-consumer needs a button in order to start the brewing
+
+makeCoffee(number)
+-One costs us ground coffee + cup
+
+dispenseCup(number)
+-We need something to drink out of, right?
+
+dispenseCoffee(number)
+-This distributes the coffee
+
+checkIfEnoughCoffeeForACup(number)
+-We need just enough or more coffee to fill a cup
+
+checkIfAnyCupsLeft(number)
+-We need at least one cup to drink out of
+
+### Methods
+
+moneyInserted(inserted)
+-Our consumer needs to insert money

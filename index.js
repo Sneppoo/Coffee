@@ -58,8 +58,8 @@ class CoffeeMachine {
     // FOR NOW JUST RETURN "here's your coffee"
     // if there is enough money inserted
     if (this.insertedMoney >= this.pricePerCup) {
-      return "Here's your coffee";
-    }else "You need to insert money";
+      return "here's your coffee";
+    }
   }
 
   // internals
