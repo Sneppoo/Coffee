@@ -22,7 +22,7 @@ module.exports = function () {
     // tell the machine that it is plugged in
     myMachine.electricity();
     // check if the property pluggedIn is true
-    // this also works: assert(myMachine.pluggedIn)
+    // this also works: assert(myMachine.electricity)
     // but this is clearer
     assert.strictEqual(
       myMachine.pluggedIn,
@@ -71,8 +71,8 @@ module.exports = function () {
       false,
       'Expected a new machine to not have enough coffee'
     );
-    // Now add some cups
-    myMachine.fillWithCups(2);
+    // Now, we add some cups
+    myMachine.fillWithCups(4);
     // Then check again expect result to be true
     assert.deepEqual(
       myMachine.checkIfAnyCupsLeft(),
@@ -142,10 +142,9 @@ module.exports = function () {
 
   this.Then(/^the user recieves (\d+) cup of coffee\.$/, function (cups) {
     cups /= 1;
-    // Ok time to test if we really get som coffee...
-    // we we should and not if we shouldn't
+    // Ok time to test if we really get some coffee...
     if (cups >= 1) {
-      assert.deepEqual(
+      assert(
         resultOfStartButton,
         "Here's your coffee",
         "Didn't get any coffee? You should. You inserted enough!"

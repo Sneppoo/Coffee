@@ -5,43 +5,21 @@
             <property name="URI" value="C:/dev/cucumber-exempel-2/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000801">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000854601">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.0002162">
+        <testcase name="And that water is available" classname=";" time="0.000215901">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0003993">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000423399">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000185201">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000213401">
         </testcase>
-        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.0001773">
+        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.000195101">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.0000634">
+        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.000069199">
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000155301">
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000158699">
         </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";" time="0.000207199">
-        </testcase>
-    </testsuite>
-    <testsuite name=";" tests="8" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/dev/cucumber-exempel-2/features/coffee-machine.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000854">
-        </testcase>
-        <testcase name="And that water is available" classname=";" time="0.0000752">
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000847">
-        </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000077601">
-        </testcase>
-        <testcase name="When the user inserts a 5 kr coin" classname=";" time="0.0000632">
-        </testcase>
-        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.000059301">
-        </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.0000691">
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";" time="0.0000732">
+        <testcase name="Then the user recieves 1 cup of coffee." classname=";" time="0.0001484">
         </testcase>
     </testsuite>
     <testsuite name=";" tests="8" failures="0" skipped="0">
@@ -49,21 +27,43 @@
             <property name="URI" value="C:/dev/cucumber-exempel-2/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000779">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000806">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000057001">
+        <testcase name="And that water is available" classname=";" time="0.000065099">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000757">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000753">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000060401">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000079099">
         </testcase>
-        <testcase name="When the user inserts a 1 kr coin" classname=";" time="0.0000528">
+        <testcase name="When the user inserts a 5 kr coin" classname=";" time="0.000074399">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.000051699">
+        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.000053899">
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.0000528">
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000044801">
         </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";" time="0.0002512">
+        <testcase name="Then the user recieves 1 cup of coffee." classname=";" time="0.000046901">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/dev/cucumber-exempel-2/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000070899">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000062401">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000059101">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000069201">
+        </testcase>
+        <testcase name="When the user inserts a 1 kr coin" classname=";" time="0.000056799">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.0000487">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.0000407">
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of coffee." classname=";" time="0.0002566">
         </testcase>
     </testsuite>
     <testsuite name=";" tests="8" failures="1" skipped="3">
@@ -71,15 +71,15 @@
             <property name="URI" value="C:/dev/cucumber-exempel-2/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000061101">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000686">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.0000609">
+        <testcase name="And that water is available" classname=";" time="0.000052599">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000608">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000583">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000069599">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000058101">
         </testcase>
-        <testcase name="When the user inserts a &quot;byxknapp&quot; kr coin" classname=";" time="0.0024318">
+        <testcase name="When the user inserts a &quot;byxknapp&quot; kr coin" classname=";" time="0.0022694">
             <failure message="AssertionError: Expected the runtime error &quot;You must insert money not byxknapp&quot;: expected [Function] to throw error including &apos;You must insert money, not byxknapp&apos; but got &apos;You must insert money not byxknapp&apos;">AssertionError: Expected the runtime error &quot;You must insert money not byxknapp&quot;: expected [Function] to throw error including &apos;You must insert money, not byxknapp&apos; but got &apos;You must insert money not byxknapp&apos;
     at Function.assert.throws (C:\dev\cucumber-exempel-2\node_modules\chai\lib\chai\interface\assert.js:1120:52)
     at createWorld.&lt;anonymous&gt; (C:\dev\cucumber-exempel-2\step-definitions\coffee-machine.js:111:12)
@@ -103,21 +103,43 @@
             <property name="URI" value="C:/dev/cucumber-exempel-2/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000848">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000803">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000058001">
+        <testcase name="And that water is available" classname=";" time="0.0000559">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000589">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000057999">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.0000706">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000062901">
         </testcase>
-        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.000055101">
+        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.000056401">
         </testcase>
-        <testcase name="And the user inserts a 10 kr coin" classname=";" time="0.0000503">
+        <testcase name="And the user inserts a 10 kr coin" classname=";" time="0.00007">
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.0000418">
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000040201">
         </testcase>
-        <testcase name="Then the user recieves 2 cup of coffee." classname=";" time="0.000050099">
+        <testcase name="Then the user recieves 2 cup of coffee." classname=";" time="0.000047199">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/dev/cucumber-exempel-2/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000872">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000064599">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000795">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000631">
+        </testcase>
+        <testcase name="When the user inserts a 1000 kr coin" classname=";" time="0.0000623">
+        </testcase>
+        <testcase name="And the user inserts a 1000 kr coin" classname=";" time="0.0000573">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000046499">
+        </testcase>
+        <testcase name="Then the user recieves 200 cup of coffee." classname=";" time="0.0000527">
         </testcase>
     </testsuite>
 </testsuites>
