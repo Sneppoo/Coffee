@@ -270,8 +270,8 @@ pre {
           <a class="navbar-brand">Cucumberjs Report</a>
           <div class="project-name visible-md visible-lg">cucumber-exempel-1</div>
           <div class="label-container">
-            <span class="label label-success" title=scenarios>Passed: 3</span>
-            <span class="label label-danger" title=scenarios>Failed: 2</span>
+            <span class="label label-success" title=scenarios>Passed: 4</span>
+            <span class="label label-danger" title=scenarios>Failed: 1</span>
           </div>
         </div>
       </div>
@@ -279,7 +279,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Thu Jan 09 2020 19:22:14 GMT+0100 (centraleuropeisk normaltid)</div>
+      <div class="generated-on">Thu Jan 09 2020 19:46:15 GMT+0100 (centraleuropeisk normaltid)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -306,9 +306,9 @@ pre {
                         <b>Feature:</b>
                         <span class="label-container">
               <span class="label label-success"
-                                                         title="3 Scenarios Passed">3</span>
+                                                         title="4 Scenarios Passed">4</span>
               <span class="label label-danger"
-                                                         title="2 Scenarios Failed">2</span>
+                                                         title="1 Scenarios Failed">1</span>
               
               
               
@@ -1328,7 +1328,7 @@ pre {
                                    href="#collapseScenariocucumber_exempel_10_3">
                                     <div>
 
-                                        <div style="padding-right: 50px">
+                                        <div style="padding-right: 70px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
                                             <b>Scenario:</b>
@@ -1336,10 +1336,11 @@ pre {
                                         <div>
                             <span class="label-container">
                               <span class="label label-success"
-                                                               title="8 Steps Passed">8</span>
+                                                               title="5 Steps Passed">5</span>
                               
                               
-                              
+                              <span class="label label-warning"
+                                                                title="3 Steps Skipped">3</span>
                               <span class="label label-danger"
                                                                title="1 Steps Failed">1</span>
                               
@@ -1503,8 +1504,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
+                                    <span class="label label-danger" title="Failed"><i
+                                            class="glyphicon glyphicon-remove"></i></span>
                                     
                                     
                                     <span class="text">
@@ -1513,7 +1514,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               1ms
+                               2ms
                               </span>
                             
                          
@@ -1524,129 +1525,21 @@ pre {
                                 
 
                                     
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> the user inserts a 1 kr coin</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">And </span>
-                          <span> presses the &quot;start&quot; button</span>
-                            
-                          
-                              <span class="step-duration">
-                               < 1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-danger" title="Failed"><i
-                                            class="glyphicon glyphicon-remove"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">Then </span>
-                          <span> the user recieves 1 cup of coffee.</span>
-                            
-                          
-                              <span class="step-duration">
-                               1ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-                                    <a href="#error0_37"
+                                    <a href="#error0_34"
                                        data-toggle="collapse" class="toggle">Show Error +</a>
-                                    <div id="error0_37"
+                                    <div id="error0_34"
                                          class="collapse">
                                         <pre class="info show-modal"
                                              data-toggle="modal"
                                              style="cursor: pointer"
-                                             data-target="#error-modal-0_37">
-                                            <br> AssertionError: Didn't get any coffee? You should. We inserted enough.: expected undefined to deeply equal 'here\'s your coffee'
-    at Function.assert.deepEqual (C:\dev\cucumber-exempel-2\node_modules\chai\lib\chai\interface\assert.js:216:32)
-    at createWorld.(anonymous) (C:\dev\cucumber-exempel-2\step-definitions\coffee-machine.js:148:14)
+                                             data-target="#error-modal-0_34">
+                                            <br> AssertionError: Expected the runtime error "You must insert money not byxknapp": expected [Function] to throw error including 'You must insert money, not byxknapp' but got 'You must insert money not byxknapp'
+    at Function.assert.throws (C:\dev\cucumber-exempel-2\node_modules\chai\lib\chai\interface\assert.js:1120:52)
+    at createWorld.(anonymous) (C:\dev\cucumber-exempel-2\step-definitions\coffee-machine.js:111:12)
     at processTicksAndRejections (internal/process/task_queues.js:79:11)</pre>
                                     </div>
 
-                                <div class="modal fade" id="error-modal-0_37" tabindex="-1" role="dialog"
+                                <div class="modal fade" id="error-modal-0_34" tabindex="-1" role="dialog"
                                      aria-labelledby="stacktraceModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-lg">
                                         <div class="modal-content">
@@ -1660,9 +1553,9 @@ pre {
                                             </div>
                                             <div class="modal-body">
                                                 <h5>
-                                                    <pre><br>AssertionError: Didn't get any coffee? You should. We inserted enough.: expected undefined to deeply equal 'here\'s your coffee'
-    at Function.assert.deepEqual (C:\dev\cucumber-exempel-2\node_modules\chai\lib\chai\interface\assert.js:216:32)
-    at createWorld.(anonymous) (C:\dev\cucumber-exempel-2\step-definitions\coffee-machine.js:148:14)
+                                                    <pre><br>AssertionError: Expected the runtime error "You must insert money not byxknapp": expected [Function] to throw error including 'You must insert money, not byxknapp' but got 'You must insert money not byxknapp'
+    at Function.assert.throws (C:\dev\cucumber-exempel-2\node_modules\chai\lib\chai\interface\assert.js:1120:52)
+    at createWorld.(anonymous) (C:\dev\cucumber-exempel-2\step-definitions\coffee-machine.js:111:12)
     at processTicksAndRejections (internal/process/task_queues.js:79:11)</pre>
                                                 </h5>
                                             </div>
@@ -1693,6 +1586,114 @@ pre {
                                 <div class="row steps">
                                     
                                     
+                                    <span class="label label-warning" title="Skipped"><i
+                                            class="glyphicon glyphicon-minus"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> the user inserts a 1 kr coin</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-warning" title="Skipped"><i
+                                            class="glyphicon glyphicon-minus"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">And </span>
+                          <span> presses the &quot;start&quot; button</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-warning" title="Skipped"><i
+                                            class="glyphicon glyphicon-minus"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> the user recieves 1 cup of coffee.</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                      </span>
+                                
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
                                     <span class="label label-success" title="Success"><i
                                             class="glyphicon glyphicon-ok"></i></span>
                                     
@@ -1703,7 +1704,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               1s 716ms
+                               1s 737ms
                               </span>
                             
                          
@@ -1780,7 +1781,7 @@ pre {
                                    href="#collapseScenariocucumber_exempel_10_4">
                                     <div>
 
-                                        <div style="padding-right: 50px">
+                                        <div style="padding-right: 30px">
                                             <i class="glyphicon glyphicon-chevron-right"></i>
                                             <i class="glyphicon glyphicon-chevron-down"></i>
                                             <b>Scenario:</b>
@@ -1792,8 +1793,7 @@ pre {
                               
                               
                               
-                              <span class="label label-danger"
-                                                               title="1 Steps Failed">1</span>
+                              
                               
                             </span>
                                         </div>
@@ -2063,8 +2063,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-danger" title="Failed"><i
-                                            class="glyphicon glyphicon-remove"></i></span>
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
                                     
                                     
                                     <span class="text">
@@ -2084,52 +2084,6 @@ pre {
                                 
 
                                     
-                                    <a href="#error0_47"
-                                       data-toggle="collapse" class="toggle">Show Error +</a>
-                                    <div id="error0_47"
-                                         class="collapse">
-                                        <pre class="info show-modal"
-                                             data-toggle="modal"
-                                             style="cursor: pointer"
-                                             data-target="#error-modal-0_47">
-                                            <br> AssertionError: Did you get coffee? You shouldn't. We didn't insert enough money!: expected 'here\'s your coffee' to not deeply equal 'here\'s your coffee'
-    at Function.assert.notDeepEqual (C:\dev\cucumber-exempel-2\node_modules\chai\lib\chai\interface\assert.js:235:36)
-    at createWorld.(anonymous) (C:\dev\cucumber-exempel-2\step-definitions\coffee-machine.js:155:14)
-    at processTicksAndRejections (internal/process/task_queues.js:79:11)</pre>
-                                    </div>
-
-                                <div class="modal fade" id="error-modal-0_47" tabindex="-1" role="dialog"
-                                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                                </button>
-                                                <h4 class="modal-title" id="error-modal-title">
-                                                    Error
-                                                </h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <h5>
-                                                    <pre><br>AssertionError: Did you get coffee? You shouldn't. We didn't insert enough money!: expected 'here\'s your coffee' to not deeply equal 'here\'s your coffee'
-    at Function.assert.notDeepEqual (C:\dev\cucumber-exempel-2\node_modules\chai\lib\chai\interface\assert.js:235:36)
-    at createWorld.(anonymous) (C:\dev\cucumber-exempel-2\step-definitions\coffee-machine.js:155:14)
-    at processTicksAndRejections (internal/process/task_queues.js:79:11)</pre>
-                                                </h5>
-                                            </div>
-
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                                    Close
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                    
 
                                     
 
@@ -2140,80 +2094,6 @@ pre {
                                 </p>
                                 
                                 
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">After </span>
-                          <span> </span>
-                            
-                          
-                              <span class="step-duration">
-                               1s 717ms
-                              </span>
-                            
-                         
-                            
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-                                <a class="toggle" href="javascript: void(0);">Screenshot +</a>
-
-                                <a class="screenshot"
-                                   style="cursor: pointer"
-
-                                   data-toggle="modal"
-                                   data-target="#ss-modal-0_48">
-
-                                    <img class="screenshot" style="height:100%;width:100%;display:none;"
-                                         id="my-images" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC"/>
-                                </a>
-
-                                <div class="modal fade" id="ss-modal-0_48" tabindex="-1" role="dialog"
-                                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                                </button>
-                                                <h4 class="modal-title" id="ss-modal-title">
-                                                    Screenshot
-                                                </h4>
-                                            </div>
-
-                                            <div class="modal-body">
-                                                <img class="screenshot" style="height:100%;width:100%;"
-                                                     id="my-ss-images" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC"/>
-                                            </div>
-
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                                    Close
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                
-
-                                    
-                                </div>
-                                </p>
                                 
                                 
                             </div>
@@ -2262,8 +2142,8 @@ pre {
                                             });
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
-                                                            "failed" : 2,
-                                                            "passed" : 3,
+                                                            "failed" : 1,
+                                                            "passed" : 4,
                                                             "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,
