@@ -14,11 +14,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 630434
+              "duration": 942301
             },
             "line": 9,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:17"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:17"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 207171
+              "duration": 217300
             },
             "line": 10,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:34"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:34"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 386006
+              "duration": 385700
             },
             "line": 11,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:45"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 183509
+              "duration": 191999
             },
             "line": 12,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:65"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:65"
             }
           },
           {
@@ -66,11 +66,11 @@
             "name": "the user inserts a 10 kr coin",
             "result": {
               "status": "passed",
-              "duration": 194247
+              "duration": 215000
             },
             "line": 13,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:84"
             }
           },
           {
@@ -79,11 +79,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 331112
+              "duration": 73501
             },
             "line": 14,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:84"
             }
           },
           {
@@ -92,11 +92,11 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 673597
+              "duration": 166800
             },
             "line": 15,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:126"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:126"
             }
           },
           {
@@ -105,11 +105,11 @@
             "name": "the user recieves 1 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 371242
+              "duration": 131901
             },
             "line": 16,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:143"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:143"
             }
           },
           {
@@ -117,11 +117,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2383862938
+              "duration": 1680256600
             },
             "hidden": true,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "C:\\dev\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -140,11 +140,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 84275
+              "duration": 77500
             },
             "line": 9,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:17"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:17"
             }
           },
           {
@@ -153,11 +153,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 54941
+              "duration": 66500
             },
             "line": 10,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:34"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:34"
             }
           },
           {
@@ -166,11 +166,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 59912
+              "duration": 73501
             },
             "line": 11,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:45"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -179,11 +179,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 70744
+              "duration": 67800
             },
             "line": 12,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:65"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:65"
             }
           },
           {
@@ -192,11 +192,11 @@
             "name": "the user inserts a 5 kr coin",
             "result": {
               "status": "passed",
-              "duration": 42982
+              "duration": 51800
             },
             "line": 13,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:84"
             }
           },
           {
@@ -205,11 +205,11 @@
             "name": "the user inserts a 5 kr coin",
             "result": {
               "status": "passed",
-              "duration": 41586
+              "duration": 59100
             },
             "line": 14,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:84"
             }
           },
           {
@@ -218,11 +218,11 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 37591
+              "duration": 43200
             },
             "line": 15,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:126"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:126"
             }
           },
           {
@@ -231,11 +231,11 @@
             "name": "the user recieves 1 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 46767
+              "duration": 53300
             },
             "line": 16,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:143"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:143"
             }
           },
           {
@@ -243,11 +243,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1357211121
+              "duration": 1616347400
             },
             "hidden": true,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "C:\\dev\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -266,11 +266,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 78157
+              "duration": 90600
             },
             "line": 9,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:17"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:17"
             }
           },
           {
@@ -279,11 +279,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 53814
+              "duration": 67100
             },
             "line": 10,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:34"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:34"
             }
           },
           {
@@ -292,11 +292,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 62109
+              "duration": 93499
             },
             "line": 11,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:45"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -305,11 +305,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 49897
+              "duration": 73001
             },
             "line": 12,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:65"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:65"
             }
           },
           {
@@ -318,11 +318,11 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 42240
+              "duration": 63600
             },
             "line": 13,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:84"
             }
           },
           {
@@ -331,11 +331,11 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 40816
+              "duration": 84600
             },
             "line": 14,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:84"
             }
           },
           {
@@ -344,11 +344,11 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 56641
+              "duration": 58199
             },
             "line": 15,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:126"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:126"
             }
           },
           {
@@ -357,11 +357,11 @@
             "name": "the user recieves 0 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 226730
+              "duration": 319400
             },
             "line": 16,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:143"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:143"
             }
           },
           {
@@ -369,11 +369,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1300740783
+              "duration": 1608501399
             },
             "hidden": true,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "C:\\dev\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -392,11 +392,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 75142
+              "duration": 73199
             },
             "line": 9,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:17"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:17"
             }
           },
           {
@@ -405,11 +405,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 47793
+              "duration": 63000
             },
             "line": 10,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:34"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:34"
             }
           },
           {
@@ -418,11 +418,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 53383
+              "duration": 60500
             },
             "line": 11,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:45"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:45"
             }
           },
           {
@@ -431,11 +431,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 49720
+              "duration": 69699
             },
             "line": 12,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:65"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:65"
             }
           },
           {
@@ -444,11 +444,11 @@
             "name": "the user inserts a \"byxknapp\" kr coin",
             "result": {
               "status": "passed",
-              "duration": 908751
+              "duration": 1085799
             },
             "line": 13,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:103"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:103"
             }
           },
           {
@@ -457,11 +457,11 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 58798
+              "duration": 70299
             },
             "line": 14,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:84"
             }
           },
           {
@@ -470,24 +470,25 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 31636
+              "duration": 42099
             },
             "line": 15,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:126"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:126"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves 0 cup of coffee.",
+            "name": "the user recieves 1 cup of coffee.",
             "result": {
-              "status": "passed",
-              "duration": 76386
+              "status": "failed",
+              "duration": 1296300,
+              "error_message": "AssertionError: Didn't get any coffee? You should. We inserted enough.: expected undefined to deeply equal 'here\\'s your coffee'\n    at Function.assert.deepEqual (C:\\dev\\cucumber-exempel-2\\node_modules\\chai\\lib\\chai\\interface\\assert.js:216:32)\n    at createWorld.<anonymous> (C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:148:14)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
             },
             "line": 16,
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:143"
+              "location": "C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:143"
             }
           },
           {
@@ -495,11 +496,17 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1339815776
+              "duration": 1713566099
             },
             "hidden": true,
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
+                "mime_type": "image/png"
+              }
+            ],
             "match": {
-              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "C:\\dev\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -512,6 +519,6 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "/Users/thomasfrank/Desktop/cucumber-exempel-1/features/coffee-machine.feature"
+    "uri": "C:/dev/cucumber-exempel-2/features/coffee-machine.feature"
   }
 ]
