@@ -1,27 +1,25 @@
-// A class that defines how a
-// coffee machine shall work
+// Creating a new class that defines how a coffee machine should work
 
 class CoffeeMachine {
 
-  constructor() {
+  constructor() {// some settings
     this.pluggedIn = false;
     this.connectedToWater = false;
     this.numberOfCups = 0;
     this.insertedMoney = 0;
-    // these two properties in gram
     this.amountOfCoffee = 0;
-    // some settings
     this.coffeePerCup = 13; // in grams
     this.pricePerCup = 10 // in SEK
+
   }
 
   // maintenance
 
-  plugIn() {
+  electricity() {
     this.pluggedIn = true;
   }
 
-  connectToWater() {
+  waterAvailable() {
     this.connectedToWater = true;
   }
 
@@ -48,7 +46,7 @@ class CoffeeMachine {
     this.insertedMoney += inserted;
   }
 
-  pressStartButton() {
+  startButton() {
     // here we will need to call
     // a number of internal methods
     // (se below)
@@ -64,9 +62,9 @@ class CoffeeMachine {
 
   // internals
 
-  brewCoffee() {
-    // one cup at a time
-    // heat water... etc
+  makeCoffee() {
+    this.amountOfCoffee -13;
+    this.numberOfCups -1;
   }
 
   dispenseCup() {

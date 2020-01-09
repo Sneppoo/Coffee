@@ -14,7 +14,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 870300
+              "duration": 955200
             },
             "line": 9,
             "match": {
@@ -27,7 +27,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 249300
+              "duration": 205100
             },
             "line": 10,
             "match": {
@@ -40,7 +40,7 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 425000
+              "duration": 365400
             },
             "line": 11,
             "match": {
@@ -53,7 +53,7 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 212899
+              "duration": 309700
             },
             "line": 12,
             "match": {
@@ -66,7 +66,7 @@
             "name": "the user inserts a 10 kr coin",
             "result": {
               "status": "passed",
-              "duration": 196800
+              "duration": 197701
             },
             "line": 13,
             "match": {
@@ -79,7 +79,7 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 72199
+              "duration": 65300
             },
             "line": 14,
             "match": {
@@ -92,7 +92,7 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 190400
+              "duration": 153500
             },
             "line": 15,
             "match": {
@@ -105,7 +105,7 @@
             "name": "the user recieves 1 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 170899
+              "duration": 111699
             },
             "line": 16,
             "match": {
@@ -117,7 +117,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1722861399
+              "duration": 1706872299
             },
             "hidden": true,
             "match": {
@@ -140,7 +140,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 86700
+              "duration": 81700
             },
             "line": 9,
             "match": {
@@ -153,7 +153,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 65700
+              "duration": 69900
             },
             "line": 10,
             "match": {
@@ -166,7 +166,7 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 70699
+              "duration": 70500
             },
             "line": 11,
             "match": {
@@ -179,7 +179,7 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 67000
+              "duration": 68701
             },
             "line": 12,
             "match": {
@@ -192,7 +192,7 @@
             "name": "the user inserts a 5 kr coin",
             "result": {
               "status": "passed",
-              "duration": 53300
+              "duration": 58800
             },
             "line": 13,
             "match": {
@@ -205,7 +205,7 @@
             "name": "the user inserts a 5 kr coin",
             "result": {
               "status": "passed",
-              "duration": 58399
+              "duration": 61800
             },
             "line": 14,
             "match": {
@@ -218,7 +218,7 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 59299
+              "duration": 50701
             },
             "line": 15,
             "match": {
@@ -231,7 +231,7 @@
             "name": "the user recieves 1 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 73600
+              "duration": 55700
             },
             "line": 16,
             "match": {
@@ -243,7 +243,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1609592001
+              "duration": 1613969101
             },
             "hidden": true,
             "match": {
@@ -266,7 +266,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 69701
+              "duration": 73200
             },
             "line": 9,
             "match": {
@@ -279,7 +279,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 60001
+              "duration": 75400
             },
             "line": 10,
             "match": {
@@ -292,7 +292,7 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 67301
+              "duration": 69200
             },
             "line": 11,
             "match": {
@@ -305,7 +305,7 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 56199
+              "duration": 59899
             },
             "line": 12,
             "match": {
@@ -318,7 +318,7 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 63100
+              "duration": 50700
             },
             "line": 13,
             "match": {
@@ -331,7 +331,7 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 59301
+              "duration": 52700
             },
             "line": 14,
             "match": {
@@ -344,7 +344,7 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 58099
+              "duration": 40900
             },
             "line": 15,
             "match": {
@@ -357,7 +357,7 @@
             "name": "the user recieves 0 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 278700
+              "duration": 268600
             },
             "line": 16,
             "match": {
@@ -369,7 +369,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1606394800
+              "duration": 1617371699
             },
             "hidden": true,
             "match": {
@@ -392,7 +392,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 72701
+              "duration": 68700
             },
             "line": 9,
             "match": {
@@ -405,7 +405,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 69799
+              "duration": 59199
             },
             "line": 10,
             "match": {
@@ -418,7 +418,7 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 58900
+              "duration": 54199
             },
             "line": 11,
             "match": {
@@ -431,7 +431,7 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 75699
+              "duration": 53099
             },
             "line": 12,
             "match": {
@@ -444,7 +444,7 @@
             "name": "the user inserts a \"byxknapp\" kr coin",
             "result": {
               "status": "passed",
-              "duration": 1068101
+              "duration": 1203500
             },
             "line": 13,
             "match": {
@@ -457,7 +457,7 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 70500
+              "duration": 71200
             },
             "line": 14,
             "match": {
@@ -470,7 +470,7 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 41100
+              "duration": 38500
             },
             "line": 15,
             "match": {
@@ -483,7 +483,7 @@
             "name": "the user recieves 1 cup of coffee.",
             "result": {
               "status": "failed",
-              "duration": 1280900,
+              "duration": 1278799,
               "error_message": "AssertionError: Didn't get any coffee? You should. We inserted enough.: expected undefined to deeply equal 'here\\'s your coffee'\n    at Function.assert.deepEqual (C:\\dev\\cucumber-exempel-2\\node_modules\\chai\\lib\\chai\\interface\\assert.js:216:32)\n    at createWorld.<anonymous> (C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:148:14)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
             },
             "line": 16,
@@ -496,7 +496,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1723662401
+              "duration": 1716580501
             },
             "hidden": true,
             "embeddings": [
@@ -525,7 +525,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 68599
+              "duration": 63001
             },
             "line": 9,
             "match": {
@@ -538,7 +538,7 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 58400
+              "duration": 56299
             },
             "line": 10,
             "match": {
@@ -551,7 +551,7 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 65800
+              "duration": 52100
             },
             "line": 11,
             "match": {
@@ -564,7 +564,7 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 78100
+              "duration": 66401
             },
             "line": 12,
             "match": {
@@ -577,7 +577,7 @@
             "name": "the user inserts a 10 kr coin",
             "result": {
               "status": "passed",
-              "duration": 60501
+              "duration": 56301
             },
             "line": 13,
             "match": {
@@ -590,7 +590,7 @@
             "name": "the user inserts a 10 kr coin",
             "result": {
               "status": "passed",
-              "duration": 57100
+              "duration": 48400
             },
             "line": 14,
             "match": {
@@ -603,7 +603,7 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 40999
+              "duration": 41700
             },
             "line": 15,
             "match": {
@@ -616,7 +616,7 @@
             "name": "the user recieves 2 cup of coffee.",
             "result": {
               "status": "failed",
-              "duration": 201001,
+              "duration": 194300,
               "error_message": "AssertionError: Did you get coffee? You shouldn't. We didn't insert enough money!: expected 'here\\'s your coffee' to not deeply equal 'here\\'s your coffee'\n    at Function.assert.notDeepEqual (C:\\dev\\cucumber-exempel-2\\node_modules\\chai\\lib\\chai\\interface\\assert.js:235:36)\n    at createWorld.<anonymous> (C:\\dev\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:155:14)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
             },
             "line": 16,
@@ -629,7 +629,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1714126199
+              "duration": 1717242400
             },
             "hidden": true,
             "embeddings": [
