@@ -117,19 +117,19 @@ module.exports = function () {
       // The error type we expect
       Error,
       // The error we expect the program to throw
-      'You must insert money not ' + nonMoney,
+      'You must insert money, not ' + nonMoney,
       // Message in test report
       'Expected the runtime error "You must insert money not ' + nonMoney + '"'
     );
   });
 
-  this.When(/^presses the "([^"]*)" button$/, function (buttonName) {
+  this.When(/^presses the "([^"]*)" button$/, function (startButton) {
     // Now this step handles presses on all
     // buttons as long as you write their names
     // inside quotes - is this good not necessarily
     // because now this step will neeed to handle
     // all button presses... (with conditional logic)
-    if (buttonName === 'start') {
+    if (startButton === 'start') {
       // For now just say everything is fine
       // (not a real test)
       resultOfStartButton = myMachine.startButton();
@@ -144,18 +144,18 @@ module.exports = function () {
     cups /= 1;
     // Ok time to test if we really get som coffee...
     // we we should and not if we shouldn't
-    if (cups === 1) {
+    if (cups >= 1) {
       assert.deepEqual(
         resultOfStartButton,
-        "here's your coffee",
-        "Didn't get any coffee? You should. We inserted enough."
+        "Here's your coffee",
+        "Didn't get any coffee? You should. You inserted enough!"
       );
     }
     else {
       assert.notDeepEqual(
         resultOfStartButton,
-        "here's your coffee",
-        "Did you get coffee? You shouldn't. We didn't insert enough money!"
+        "Here's your coffee",
+        "Did you get coffee? You shouldn't. You didn't insert enough money!"
       );
     }
 
