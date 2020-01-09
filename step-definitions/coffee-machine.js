@@ -20,7 +20,7 @@ module.exports = function () {
     myMachine = new CoffeeMachine();
 
     // tell the machine that it is plugged in
-    myMachine.plugIn();
+    myMachine.electricity();
     // check if the property pluggedIn is true
     // this also works: assert(myMachine.pluggedIn)
     // but this is clearer
@@ -33,7 +33,7 @@ module.exports = function () {
 
   this.Given(/^that water is available$/, function () {
     // tell the machine to connect to water
-    myMachine.connectToWater();
+    myMachine.waterAvailable();
     // check if the property connectedToWater is true
     assert.strictEqual(
       myMachine.connectedToWater,
@@ -132,7 +132,7 @@ module.exports = function () {
     if (buttonName === 'start') {
       // For now just say everything is fine
       // (not a real test)
-      resultOfStartButton = myMachine.pressStartButton();
+      resultOfStartButton = myMachine.startButton();
     }
     else {
       assert(false, "The only button on this machine should be the start button")
