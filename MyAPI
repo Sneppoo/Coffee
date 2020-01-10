@@ -5,7 +5,6 @@ electricity (boolean)
 waterAvailable(boolean)
 -we need water to make coffee
 
-
 makeCoffee(number)
 -One costs us ground coffee + cup
 

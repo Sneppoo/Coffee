@@ -8,8 +8,13 @@ class CoffeeMachine {
     this.numberOfCups = 0;
     this.insertedMoney = 0;
     this.amountOfCoffee = 0;
+    this.amountOfMilk = 0;
     this.coffeePerCup = 13; // in grams
-    this.pricePerCup = 10 // in SEK
+    this.pricePerCup = 10; // in SEK
+    this.coffeeWithMilkPrice = 13;
+    this.hotCocoPrice = 11;
+    this.withMilk = false;
+    this.milkPerCup = 10;
 
   }
 
@@ -21,6 +26,10 @@ class CoffeeMachine {
 
   waterAvailable() {
     this.connectedToWater = true;
+  }
+
+  fillWithMilk(amount) {
+    this.amountOfMilk += amount;
   }
 
   fillWithCoffee(amount) {
@@ -41,7 +50,7 @@ class CoffeeMachine {
     // add inserted money to total
     // money inserted so far
     if (typeof inserted !== 'number') {
-      throw (new Error('You must insert money not ' + nonMoney));
+      throw (new Error('You must insert money, not ' + nonMoney));
     }
     this.insertedMoney += inserted;
   }
@@ -63,8 +72,13 @@ class CoffeeMachine {
   // internals
 
   makeCoffee() {
-    this.amountOfCoffee -13;
-    this.numberOfCups -1;
+    this.amountOfCoffee - 13;
+    this.numberOfCups - 1;
+  }
+
+  pressWithMilkButton() {
+    this.withMilk = true;
+
   }
 
   dispenseCup() {
@@ -77,6 +91,9 @@ class CoffeeMachine {
 
   checkIfEnoughCoffeeForACup() {
     return this.amountOfCoffee >= this.coffeePerCup;
+  }
+  checkIfEnoughMilkForACup() {
+    return this.amountOfMilk >= this.milkPerCup;
   }
 
   checkIfAnyCupsLeft() {

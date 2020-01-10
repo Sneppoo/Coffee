@@ -65,11 +65,11 @@ module.exports = function () {
   this.Given(/^the machine has plastic cups$/, function () {
     // newly unpacked machine
     // so expect it to have no plastic cups
-    // and the result to be false
+    // and the result is expected to be false
     assert.deepEqual(
       myMachine.checkIfAnyCupsLeft(),
       false,
-      'Expected a new machine to not have enough coffee'
+      'Expected a new machine to not have any cups'
     );
     // Now, we add some cups
     myMachine.fillWithCups(4);
@@ -79,6 +79,15 @@ module.exports = function () {
       true,
       'Expected the machine to have at least one cup after filling with two cups'
     );
+  });
+
+  this.Given(/^the user wants milk$/, function () {
+    assert.deepEqual(
+      myMachine.checkIfEnoughMilkForACup(), false, 'This should not be enough milk.')
+    myMachine.fillWithMilk(100);
+    assert.deepEqual(
+      myMachine.checkIfEnoughMilkForACup(), true, 'This should not enough milk.')
+
   });
 
   this.When(/^the user inserts a (\d+) kr coin$/, function (amountOfMoney) {
@@ -115,7 +124,7 @@ module.exports = function () {
         myMachine.insertMoney(global.nonMoney);
       },
       // The error type we expect
-      Error,
+      new Error,
       // The error we expect the program to throw
       'You must insert money, not ' + nonMoney,
       // Message in test report
