@@ -5,39 +5,79 @@
             <property name="URI" value="C:/dev/Coffee/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000767636">
+        <testcase name="Given that the machine is plugged in" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000725334">
         </testcase>
-        <testcase name="And that water is available" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000132741">
+        <testcase name="And that water is available" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000131282">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.00036759">
+        <testcase name="And that the machine has enough ground coffee" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000272775">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000121436">
+        <testcase name="And the machine has plastic cups" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000247248">
         </testcase>
-        <testcase name="And the user wants milk" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000116695">
+        <testcase name="And the user wants milk" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000118884">
         </testcase>
-        <testcase name="When the user inserts a 10 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000109402">
+        <testcase name="When the user inserts a 10 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000106849">
         </testcase>
         <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000048137">
         </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.00004449">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000045949">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000114507">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000046313">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000042667">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000036832">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000038291">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000043031">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000114507">
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of coffee." classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000099191">
+        </testcase>
+    </testsuite>
+    <testsuite name=";&quot;first-test-coffee-drinkers.&quot;" tests="17" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/dev/Coffee/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000082051">
+        </testcase>
+        <testcase name="And that water is available" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000061629">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.00007257">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000074029">
+        </testcase>
+        <testcase name="And the user wants milk" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000070382">
+        </testcase>
+        <testcase name="When the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000079499">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000062723">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000051784">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000053607">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000056889">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.00004996">
+        </testcase>
         <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000043761">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000046678">
+        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000047408">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000053607">
+        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000041572">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000054701">
+        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000036103">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000040843">
+        <testcase name="And presses the &quot;start&quot; button" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000028444">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.00003829">
-        </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000041573">
-        </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000035738">
-        </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000128364">
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000093357">
+        <testcase name="Then the user recieves 1 cup of coffee." classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000030998">
         </testcase>
     </testsuite>
     <testsuite name=";&quot;first-test-coffee-drinkers.&quot;" tests="17" failures="0" skipped="0">
@@ -45,79 +85,39 @@
             <property name="URI" value="C:/dev/Coffee/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000094815">
+        <testcase name="Given that the machine is plugged in" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000096639">
         </testcase>
-        <testcase name="And that water is available" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.00007184">
+        <testcase name="And that water is available" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000072206">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000080228">
+        <testcase name="And that the machine has enough ground coffee" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000097733">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000079863">
+        <testcase name="And the machine has plastic cups" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000085333">
         </testcase>
-        <testcase name="And the user wants milk" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000081687">
+        <testcase name="And the user wants milk" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000071111">
         </testcase>
-        <testcase name="When the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000072935">
+        <testcase name="When the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000061265">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000071111">
+        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000069652">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000079863">
+        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.00007804">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000072935">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000067465">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000079864">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.00005543">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000066735">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000055794">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000051419">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000070746">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000081322">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000068194">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000072205">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000091897">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000042302">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000074393">
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000031727">
+        <testcase name="And presses the &quot;start&quot; button" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000033914">
         </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000035738">
-        </testcase>
-    </testsuite>
-    <testsuite name=";&quot;first-test-coffee-drinkers.&quot;" tests="17" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/dev/Coffee/features/coffee-machine.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000098461">
-        </testcase>
-        <testcase name="And that water is available" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.00007184">
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000068194">
-        </testcase>
-        <testcase name="And the machine has plastic cups" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000063818">
-        </testcase>
-        <testcase name="And the user wants milk" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000080228">
-        </testcase>
-        <testcase name="When the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000062723">
-        </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000074028">
-        </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000075122">
-        </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000064182">
-        </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000061994">
-        </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000062724">
-        </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.00006163">
-        </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000058712">
-        </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000058713">
-        </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000062723">
-        </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000047043">
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000220627">
+        <testcase name="Then the user recieves 0 cup of coffee." classname=";&quot;first-test-coffee-drinkers.&quot;" time="0.000203852">
         </testcase>
     </testsuite>
     <testsuite name=";&quot;ops!-there&apos;s-a-water-leak!&quot;" tests="18" failures="1" skipped="16">
@@ -125,9 +125,9 @@
             <property name="URI" value="C:/dev/Coffee/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";&quot;ops!-there&apos;s-a-water-leak!&quot;" time="0.000070017">
+        <testcase name="Given that the machine is plugged in" classname=";&quot;ops!-there&apos;s-a-water-leak!&quot;" time="0.000059806">
         </testcase>
-        <testcase name="And there&apos;s a water leak" classname=";&quot;ops!-there&apos;s-a-water-leak!&quot;" time="0.000936115">
+        <testcase name="And there&apos;s a water leak" classname=";&quot;ops!-there&apos;s-a-water-leak!&quot;" time="0.001022178">
             <failure message="AssertionError: True, there is a water leak atm, plummer is on his way!: expected true to be falsy">AssertionError: True, there is a water leak atm, plummer is on his way!: expected true to be falsy
     at Function.assert.isNotOk (C:\dev\Coffee\node_modules\chai\lib\chai\interface\assert.js:105:36)
     at createWorld.&lt;anonymous&gt; (C:\dev\Coffee\step-definitions\coffee-machine.js:177:12)
@@ -203,17 +203,17 @@
             <property name="URI" value="C:/dev/Coffee/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";&quot;someone-put-something-in-the-machine!&quot;" time="0.000057619">
+        <testcase name="Given that the machine is plugged in" classname=";&quot;someone-put-something-in-the-machine!&quot;" time="0.000072935">
         </testcase>
-        <testcase name="And that water is available" classname=";&quot;someone-put-something-in-the-machine!&quot;" time="0.000054336">
+        <testcase name="And that water is available" classname=";&quot;someone-put-something-in-the-machine!&quot;" time="0.000045948">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";&quot;someone-put-something-in-the-machine!&quot;" time="0.000056889">
+        <testcase name="And that the machine has enough ground coffee" classname=";&quot;someone-put-something-in-the-machine!&quot;" time="0.000059442">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";&quot;someone-put-something-in-the-machine!&quot;" time="0.00008971">
+        <testcase name="And the machine has plastic cups" classname=";&quot;someone-put-something-in-the-machine!&quot;" time="0.000083145">
         </testcase>
-        <testcase name="And the user wants milk" classname=";&quot;someone-put-something-in-the-machine!&quot;" time="0.000052149">
+        <testcase name="And the user wants milk" classname=";&quot;someone-put-something-in-the-machine!&quot;" time="0.000059807">
         </testcase>
-        <testcase name="When the user inserts a &quot;Skjortknapp&quot; kr coin" classname=";&quot;someone-put-something-in-the-machine!&quot;" time="0.000988628">
+        <testcase name="When the user inserts a &quot;Skjortknapp&quot; kr coin" classname=";&quot;someone-put-something-in-the-machine!&quot;" time="0.001215454">
             <failure message="AssertionError: Expected the runtime error &quot;You must insert money not Skjortknapp&quot;: expected [Function] to throw &apos;Error&apos; but &apos;Error: You must insert money, not Skjortknapp&apos; was thrown">AssertionError: Expected the runtime error &quot;You must insert money not Skjortknapp&quot;: expected [Function] to throw &apos;Error&apos; but &apos;Error: You must insert money, not Skjortknapp&apos; was thrown
     at Function.assert.throws (C:\dev\Coffee\node_modules\chai\lib\chai\interface\assert.js:1120:52)
     at createWorld.&lt;anonymous&gt; (C:\dev\Coffee\step-definitions\coffee-machine.js:120:12)
@@ -269,39 +269,39 @@
             <property name="URI" value="C:/dev/Coffee/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000088615">
+        <testcase name="Given that the machine is plugged in" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000071476">
         </testcase>
-        <testcase name="And that water is available" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000044855">
+        <testcase name="And that water is available" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000048502">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000069652">
+        <testcase name="And that the machine has enough ground coffee" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000074393">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000041572">
+        <testcase name="And the machine has plastic cups" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000043032">
         </testcase>
-        <testcase name="And the user does not want milk" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000141128">
+        <testcase name="And the user does not want milk" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000133106">
         </testcase>
-        <testcase name="When the user inserts a 10 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000043031">
+        <testcase name="When the user inserts a 10 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.00004522">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.00003975">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000042302">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000052148">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000055066">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000053972">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000057983">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.00005069">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000059077">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000041572">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000037926">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000039749">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.00003282">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000037562">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000067829">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000041938">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000038291">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000032091">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000058348">
         </testcase>
-        <testcase name="And presses the &quot;start&quot; button" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000025162">
+        <testcase name="And presses the &quot;start&quot; button" classname=";&quot;this-person-did-not-want-milk&quot;" time="0.00004996">
         </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000030632">
+        <testcase name="Then the user recieves 1 cup of coffee." classname=";&quot;this-person-did-not-want-milk&quot;" time="0.000030268">
         </testcase>
     </testsuite>
     <testsuite name=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" tests="17" failures="1" skipped="1">
@@ -309,37 +309,37 @@
             <property name="URI" value="C:/dev/Coffee/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000087886">
+        <testcase name="Given that the machine is plugged in" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000099191">
         </testcase>
-        <testcase name="And that water is available" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000061995">
+        <testcase name="And that water is available" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000084969">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000074393">
+        <testcase name="And that the machine has enough ground coffee" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000114143">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000065641">
+        <testcase name="And the machine has plastic cups" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000107579">
         </testcase>
-        <testcase name="And the user does not want milk" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000050324">
+        <testcase name="And the user does not want milk" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000084968">
         </testcase>
-        <testcase name="When the user inserts a 5 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000051783">
+        <testcase name="When the user inserts a 5 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000076217">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000040478">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000087887">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000038655">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000079499">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000041572">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000087886">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000036102">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000084969">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000040114">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000330393">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000037926">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.00007804">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000055795">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000052148">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000072934">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000047042">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000073664">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000053242">
         </testcase>
-        <testcase name="And presses the &quot;cancel&quot; button" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000701266">
+        <testcase name="And presses the &quot;cancel&quot; button" classname=";&quot;someone-pressed-cancel-before-the-coffe-was-made&quot;" time="0.000143681">
             <failure message="AssertionError: Did you press the cancel button? Here&apos;s your money back...">AssertionError: Did you press the cancel button? Here&apos;s your money back...
     at createWorld.&lt;anonymous&gt; (C:\dev\Coffee\step-definitions\coffee-machine.js:147:7)
     at processTicksAndRejections (internal/process/task_queues.js:79:11)</failure>
@@ -354,39 +354,39 @@
             <property name="URI" value="C:/dev/Coffee/features/coffee-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000074393">
+        <testcase name="Given that the machine is plugged in" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000060536">
         </testcase>
-        <testcase name="And that water is available" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000051054">
+        <testcase name="And that water is available" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000064182">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.00006163">
+        <testcase name="And that the machine has enough ground coffee" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000050325">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000045584">
+        <testcase name="And the machine has plastic cups" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000048866">
         </testcase>
-        <testcase name="And the user does not want milk" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.00004996">
+        <testcase name="And the user does not want milk" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000036467">
         </testcase>
-        <testcase name="When the user inserts a 5 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000041573">
+        <testcase name="When the user inserts a 5 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000049231">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000047043">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000036467">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000044125">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000041208">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000039385">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000032091">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000040843">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000033914">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000039749">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000033185">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000051419">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.00003355">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000052148">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000032456">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000041573">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000033186">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000048502">
+        <testcase name="And the user inserts a 0 kr coin" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000034279">
         </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000162644">
+        <testcase name="Then the user recieves 0 cup of coffee." classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000094815">
         </testcase>
-        <testcase name="And presses the &quot;cancel&quot; button" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000101744">
+        <testcase name="And presses the &quot;cancel&quot; button" classname=";&quot;someone-pressed-cancel-after-the-coffe-was-made&quot;" time="0.000163374">
             <failure message="AssertionError: Did you press the cancel button? Here&apos;s your money back...">AssertionError: Did you press the cancel button? Here&apos;s your money back...
     at createWorld.&lt;anonymous&gt; (C:\dev\Coffee\step-definitions\coffee-machine.js:147:7)
     at processTicksAndRejections (internal/process/task_queues.js:79:11)</failure>
