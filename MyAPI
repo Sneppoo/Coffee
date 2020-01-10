@@ -1,3 +1,11 @@
+### En kaffemaskin som ska kunna servera snabbt med hjälp av uppkoppling till elektricitet, vatten och malt kaffe.
+ Man ska kunna lägga till mjölk om det önskas, man får engångsmuggar.
+ Maskinen fyller på sig själv när saker börjar ta slut, den är magisk.
+ Maskinen ska kunna ta emot mynt och eventuellt ett till betalningssätt.
+ Maskinen är supersäker och ändrar sitt beteende om något blir fel.
+ Det finns en cancel-knapp för att få tillbaka sina pengar om man ångrar sig.
+_______________________________________________________________________________________________________________________
+
 ##properties
 electricity (boolean)
 -do we have power?
@@ -5,20 +13,11 @@ electricity (boolean)
 waterAvailable(boolean)
 -we need water to make coffee
 
-makeCoffee(number)
--One costs us ground coffee + cup
+cancelButton()
+-Returns insertedmoney if anyone presses the button
 
-dispenseCup(number)
--We need something to drink out of, right?
-
-dispenseCoffee(number)
--This distributes the coffee
-
-checkIfEnoughCoffeeForACup(number)
--We need just enough or more coffee to fill a cup
-
-checkIfAnyCupsLeft(number)
--We need at least one cup to drink out of
+startButton()
+-Starts the machine once you inserted money 
 
 ### Methods
 
@@ -26,7 +25,25 @@ fillWithCoffee(amount)
 -fill with more so we dont run out
 
 fillWithCups(amount)
--Can't run out
+-Let the machine refill itself
 
-startButton()
+pressStart()
 -consumer needs a button in order to start the brewing
+
+makeCoffee(grams)
+-One costs us x grams of ground coffee + cup
+
+dispenseCup()
+-We need something to drink out of, right?
+
+dispenseCoffee()
+-This distributes the coffee
+
+checkIfEnoughCoffeeForACup()
+-We need just enough or more coffee to fill a cup
+
+checkIfEnoughMilkForACup()
+-This will refill if there is less than what is needed for 1
+
+checkIfAnyCupsLeft(number)
+-We need at least one cup to drink out of

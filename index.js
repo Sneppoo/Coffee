@@ -55,6 +55,10 @@ class CoffeeMachine {
     this.insertedMoney += inserted;
   }
 
+  cancelButton() {
+    return this.insertedMoney;
+  }
+
   startButton() {
     // here we will need to call
     // a number of internal methods

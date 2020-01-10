@@ -38,7 +38,7 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.connectedToWater,
       true,
-      'Expected the property connectedToWater to be true after calling the connectToWater() method.'
+      'Expected the property connectedToWater to be true after calling the waterAvailable() method.'
     );
   });
 
@@ -138,13 +138,14 @@ module.exports = function () {
     // inside quotes - is this good not necessarily
     // because now this step will neeed to handle
     // all button presses... (with conditional logic)
-    if (startButton === 'start') {
+    if (startButton == 'start') {
       // For now just say everything is fine
       // (not a real test)
       resultOfStartButton = myMachine.startButton();
     }
     else {
-      assert(false, "The only button on this machine should be the start button")
+      assert(false, "Did you press the cancel button? Here's your money back...")
+      cancelButton();
     }
   });
 
@@ -169,4 +170,29 @@ module.exports = function () {
 
   });
 
-}
+  this.Given(/^there's a water leak$/, function () {
+    // tell the machine to connect to water
+    myMachine.waterAvailable();
+    // check if the property connectedToWater is true
+    assert.isNotOk(
+      true,
+      "True, there is a water leak atm, plummer is on his way!",
+    );
+  });
+
+  this.Given(/^the user does not want milk$/, function () {
+    myMachine.fillWithMilk();
+
+    assert.isOk(
+      true,
+      "True, this user didn't want milk"
+    )
+  });
+
+  this.When(/^Someone pressed cancel$/, function () {
+
+    myMachine.cancelButton();
+
+    assert.equal(
+      cancelButton,insertedMoney, "Here's your money back");
+    })};
