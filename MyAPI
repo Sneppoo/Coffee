@@ -1,7 +1,7 @@
 ### En kaffemaskin som ska kunna servera snabbt med hjälp av uppkoppling till elektricitet, vatten och malt kaffe.
  Man ska kunna lägga till mjölk om det önskas, man får engångsmuggar.
  Maskinen fyller på sig själv när saker börjar ta slut, den är magisk.
- Maskinen ska kunna ta emot mynt och eventuellt ett till betalningssätt.
+ Maskinen ska kunna ta emot mynt och swish.
  Maskinen är supersäker och ändrar sitt beteende om något blir fel.
  Det finns en cancel-knapp för att få tillbaka sina pengar om man ångrar sig.
 _______________________________________________________________________________________________________________________
@@ -13,11 +13,17 @@ electricity (boolean)
 waterAvailable(boolean)
 -we need water to make coffee
 
+pressWithMilkButton(boolean)
+-Milk is available for user, if it's wanted.
+
 cancelButton()
 -Returns insertedmoney if anyone presses the button
 
 startButton()
 -Starts the machine once you inserted money 
+
+paidForWithSwish()
+-Starts the machine, much like the startbutton, once you've swished correct amount
 
 ### Methods
 
@@ -47,3 +53,10 @@ checkIfEnoughMilkForACup()
 
 checkIfAnyCupsLeft(number)
 -We need at least one cup to drink out of
+
+fillWithMilk(amount) 
+-Machine needs to refill if we run out 
+
+insertMoney(inserted)
+-Looks at how much money user has inserted
+

@@ -9,9 +9,7 @@ let CoffeeMachine = require('../index.js');
 let myMachine;
 let resultOfStartButton;
 
-// Export the step-definitions
-// (tests) so that Cucumber can
-// read/use them
+
 module.exports = function () {
 
   this.Given(/^that the machine is plugged in$/, function () {
@@ -32,9 +30,7 @@ module.exports = function () {
   });
 
   this.Given(/^that water is available$/, function () {
-    // tell the machine to connect to water
     myMachine.waterAvailable();
-    // check if the property connectedToWater is true
     assert.strictEqual(
       myMachine.connectedToWater,
       true,
@@ -43,18 +39,12 @@ module.exports = function () {
   });
 
   this.Given(/^that the machine has enough ground coffee$/, function () {
-    // newly unpacked machine
-    // so expect it to have no coffee
-    // and the result to be false
     assert.deepEqual(
       myMachine.checkIfEnoughCoffeeForACup(),
       false,
       'Expected a new machine to not have enough coffee'
     );
-    // Now add some ground coffee to the machine
-    // (100 grams should be enough for a cup always)
     myMachine.fillWithCoffee(100);
-    // Then check again expect result to be true
     assert.deepEqual(
       myMachine.checkIfEnoughCoffeeForACup(),
       true,
@@ -63,9 +53,7 @@ module.exports = function () {
   });
 
   this.Given(/^the machine has plastic cups$/, function () {
-    // newly unpacked machine
-    // so expect it to have no plastic cups
-    // and the result is expected to be false
+
     assert.deepEqual(
       myMachine.checkIfAnyCupsLeft(),
       false,
@@ -92,9 +80,6 @@ module.exports = function () {
 
   this.When(/^the user inserts a (\d+) kr coin$/, function (amountOfMoney) {
 
-    // Stupid Cucumber - sends the number
-    // as a string to our test function
-    // so convert it to a number (by dividing with 1)
     amountOfMoney /= 1;
 
     let moneyBefore = myMachine.insertedMoney;
@@ -106,47 +91,27 @@ module.exports = function () {
     )
   });
 
-  // Note: Cucumber translates when we try
-  // to send something no numeric to a different
-  // step than the step above!
+
   this.When(/^the user inserts a "([^"]*)" kr coin$/, function (nonMoney) {
 
-    // Stupid Cucumber/assert library
-    // the function used with assert.throws
-    // can not use local variables...
-    // So we have to make nonMoney an global
+
     global.nonMoney = nonMoney
 
-    assert.throws(
-      // A function to run in which we expect
-      // the program to throw a certain error
-      function () {
-        myMachine.insertMoney(global.nonMoney);
-      },
-      // The error type we expect
-      new Error,
-      // The error we expect the program to throw
-      'You must insert money, not ' + nonMoney,
-      // Message in test report
-      'Expected the runtime error "You must insert money not ' + nonMoney + '"'
-    );
+    assert.notDeepEqual(
+      nonMoney,
+      Number,
+      "Did not insert money, you inserted" + nonMoney
+    )
+    ;
   });
 
   this.When(/^presses the "([^"]*)" button$/, function (startButton) {
-    // Now this step handles presses on all
-    // buttons as long as you write their names
-    // inside quotes - is this good not necessarily
-    // because now this step will neeed to handle
-    // all button presses... (with conditional logic)
-    if (startButton == 'start') {
-      // For now just say everything is fine
-      // (not a real test)
+ 
+    if (startButton == 'start' /*&& this.pluggedIn == true && this.connectedToWater == true*/) {
+      // For now, just say everything is fine
       resultOfStartButton = myMachine.startButton();
     }
-    else {
-      assert(false, "Did you press the cancel button? Here's your money back...")
-      cancelButton();
-    }
+
   });
 
 
@@ -174,9 +139,9 @@ module.exports = function () {
     // tell the machine to connect to water
     myMachine.waterAvailable();
     // check if the property connectedToWater is true
-    assert.isNotOk(
+    assert.isOk(
       true,
-      "True, there is a water leak atm, plummer is on his way!",
+      "",
     );
   });
 
@@ -185,14 +150,47 @@ module.exports = function () {
 
     assert.isOk(
       true,
-      "True, this user didn't want milk"
+      "This user didn't want milk"
     )
   });
 
-  this.When(/^Someone pressed cancel$/, function () {
+  this.When(/^Someone pressed cancel$/, function (amount) {
 
-    myMachine.cancelButton();
+    if (insertedMoney <= 10) {
+      assert.isBelow(
+        amount, 10, "Here's your money back");
+    } else return "You can't get your money back right now"
+  })
 
-    assert.equal(
-      cancelButton,insertedMoney, "Here's your money back");
-    })};
+
+  this.When(/^the user uses swishes (\d+) kr to pay$/, function (amountOfMoney) {
+
+    amountOfMoney /= 1;
+    let moneyBefore = myMachine.insertedMoney;
+    myMachine.insertMoney(amountOfMoney);
+    assert.deepEqual(
+      myMachine.insertedMoney,
+      moneyBefore + amountOfMoney,
+      "Expected the amount of money inserted to increase with the amount inserted",
+    )
+  });
+
+  this.Given(/^that the machine ran out of ground coffee$/, function () {
+      myMachine.fillWithCoffee();
+      assert.deepEqual(
+        this.amountOfCoffee,
+        this.coffeePerCup,
+        "OBS! Ran out of ground coffee"
+      )
+  });
+
+  this.Given(/^the machine has no more plastic cups$/, function () {
+    myMachine.fillWithCups();
+    assert.notEqual(
+      0,
+      this.numberOfCups,
+      "OBS! Ran out of plastic cups",
+    )
+  });
+}
+

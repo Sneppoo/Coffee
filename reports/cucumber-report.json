@@ -1,7 +1,250 @@
 [
   {
-    "description": "  As a coffee buyer\n  I want a basic machine that\n  I can put a 10 kr coin in\n  and get a black cup of coffee back\n  because I crave caffeine.",
+    "description": "  As a coffee buyer\n  I want a basic machine that\n  I can put a 10 kr coin in or swish\n  and get a black cup of coffee back\n  because I crave caffeine.",
     "elements": [
+      {
+        "id": ";\"first-test-coffee-drinkers.\"",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "\"First test coffee drinkers.\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 671728
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 152069
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 227191
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 115601
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user wants milk",
+            "result": {
+              "status": "passed",
+              "duration": 130918
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 108308
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 55066
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 56524
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 55795
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 57618
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 58347
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 48866
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 65641
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 56159
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 48137
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 151704
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 135658
+            },
+            "line": 26,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1748108077
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
       {
         "id": ";\"first-test-coffee-drinkers.\"",
         "keyword": "Scenario",
@@ -14,11 +257,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 725334
+              "duration": 64912
             },
-            "line": 11,
+            "line": 10,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:17"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
             }
           },
           {
@@ -27,11 +270,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 131282
+              "duration": 53243
             },
-            "line": 12,
+            "line": 11,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:34"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -40,11 +283,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 272775
+              "duration": 60901
             },
-            "line": 13,
+            "line": 12,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
             }
           },
           {
@@ -53,11 +296,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 247248
+              "duration": 58347
             },
-            "line": 14,
+            "line": 13,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:65"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
             }
           },
           {
@@ -66,37 +309,24 @@
             "name": "the user wants milk",
             "result": {
               "status": "passed",
-              "duration": 118884
+              "duration": 59806
             },
-            "line": 15,
+            "line": 14,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:84"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:72"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user inserts a 10 kr coin",
+            "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 106849
+              "duration": 67464
             },
-            "line": 16,
+            "line": 15,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 48137
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -105,102 +335,115 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 44490
+              "duration": 52878
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 61265
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 50325
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
+            "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 45949
+              "duration": 66005
             },
             "line": 19,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
+            "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 114507
+              "duration": 55430
             },
             "line": 20,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
+            "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 46313
+              "duration": 47407
             },
             "line": 21,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
+            "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 42667
+              "duration": 51054
             },
             "line": 22,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
+            "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 36832
+              "duration": 46678
             },
             "line": 23,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
+            "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 38291
+              "duration": 44855
             },
             "line": 24,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 43031
-            },
-            "line": 25,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -209,11 +452,11 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 114507
+              "duration": 33185
             },
-            "line": 26,
+            "line": 25,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:135"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
             }
           },
           {
@@ -222,11 +465,11 @@
             "name": "the user recieves 1 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 99191
+              "duration": 42302
             },
-            "line": 27,
+            "line": 26,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:153"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
             }
           },
           {
@@ -234,11 +477,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1681398957
+              "duration": 1676684351
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\Coffee\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -257,11 +500,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 82051
+              "duration": 180148
             },
-            "line": 11,
+            "line": 10,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:17"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
             }
           },
           {
@@ -270,11 +513,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 61629
+              "duration": 178325
             },
-            "line": 12,
+            "line": 11,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:34"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -283,11 +526,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 72570
+              "duration": 212604
             },
-            "line": 13,
+            "line": 12,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
             }
           },
           {
@@ -296,11 +539,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 74029
+              "duration": 262929
             },
-            "line": 14,
+            "line": 13,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:65"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
             }
           },
           {
@@ -309,11 +552,11 @@
             "name": "the user wants milk",
             "result": {
               "status": "passed",
-              "duration": 70382
+              "duration": 171397
             },
-            "line": 15,
+            "line": 14,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:84"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:72"
             }
           },
           {
@@ -322,11 +565,24 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 79499
+              "duration": 149151
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 148787
             },
             "line": 16,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -335,115 +591,102 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 62723
+              "duration": 152069
             },
             "line": 17,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
+            "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 51784
+              "duration": 169938
             },
             "line": 18,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
+            "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 53607
+              "duration": 185619
             },
             "line": 19,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
+            "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 56889
+              "duration": 207864
             },
             "line": 20,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
+            "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 49960
+              "duration": 170303
             },
             "line": 21,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
+            "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 43761
+              "duration": 90074
             },
             "line": 22,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
+            "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 47408
+              "duration": 89710
             },
             "line": 23,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
+            "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 41572
+              "duration": 92262
             },
             "line": 24,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 36103
-            },
-            "line": 25,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -452,11 +695,267 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 28444
+              "duration": 74029
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 338782
             },
             "line": 26,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:135"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1652774577
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";\"ops!-there's-a-water-leak!\"",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "\"OPS! There's a water leak!\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 110131
+            },
+            "line": 35,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there's a water leak",
+            "result": {
+              "status": "passed",
+              "duration": 250165
+            },
+            "line": 36,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:138"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 114507
+            },
+            "line": 37,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 144410
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user wants milk",
+            "result": {
+              "status": "passed",
+              "duration": 100285
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 90804
+            },
+            "line": 40,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 82051
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 84239
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 78405
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 77676
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 80228
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 80593
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 114872
+            },
+            "line": 47,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 78770
+            },
+            "line": 48,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 137117
+            },
+            "line": 49,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 78405
+            },
+            "line": 50,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 59442
+            },
+            "line": 51,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
             }
           },
           {
@@ -465,11 +964,11 @@
             "name": "the user recieves 1 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 30998
+              "duration": 72205
             },
-            "line": 27,
+            "line": 52,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:153"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
             }
           },
           {
@@ -477,11 +976,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1625534382
+              "duration": 1661015453
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\Coffee\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -489,10 +988,10 @@
         "type": "scenario"
       },
       {
-        "id": ";\"first-test-coffee-drinkers.\"",
+        "id": ";\"someone-put-something-in-the-machine!\"",
         "keyword": "Scenario",
-        "line": 33,
-        "name": "\"First test coffee drinkers.\"",
+        "line": 81,
+        "name": "\"Someone put something in the machine!\"",
         "steps": [
           {
             "arguments": [],
@@ -500,11 +999,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 96639
+              "duration": 121436
             },
-            "line": 11,
+            "line": 60,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:17"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
             }
           },
           {
@@ -513,11 +1012,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 72206
+              "duration": 94450
             },
-            "line": 12,
+            "line": 61,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:34"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -528,512 +1027,22 @@
               "status": "passed",
               "duration": 97733
             },
-            "line": 13,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:45"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 85333
-            },
-            "line": 14,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:65"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user wants milk",
-            "result": {
-              "status": "passed",
-              "duration": 71111
-            },
-            "line": 15,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:84"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a 1 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 61265
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 69652
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 78040
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 67465
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 55430
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 55794
-            },
-            "line": 21,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 70746
-            },
-            "line": 22,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 68194
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 91897
-            },
-            "line": 24,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 74393
-            },
-            "line": 25,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 33914
-            },
-            "line": 26,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:135"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves 0 cup of coffee.",
-            "result": {
-              "status": "passed",
-              "duration": 203852
-            },
-            "line": 27,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:153"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1614893962
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\dev\\Coffee\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";\"ops!-there's-a-water-leak!\"",
-        "keyword": "Scenario",
-        "line": 57,
-        "name": "\"OPS! There's a water leak!\"",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 59806
-            },
-            "line": 36,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:17"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "there's a water leak",
-            "result": {
-              "status": "failed",
-              "duration": 1022178,
-              "error_message": "AssertionError: True, there is a water leak atm, plummer is on his way!: expected true to be falsy\n    at Function.assert.isNotOk (C:\\dev\\Coffee\\node_modules\\chai\\lib\\chai\\interface\\assert.js:105:36)\n    at createWorld.<anonymous> (C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:177:12)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
-            },
-            "line": 37,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:173"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 38,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:45"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 39,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:65"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user wants milk",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 40,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:84"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 41,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 42,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 43,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 44,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 45,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 46,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 47,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 48,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 49,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 50,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 51,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 52,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:135"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves 1 cup of coffee.",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 53,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:153"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1695759768
-            },
-            "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAABJ0AAASdAHeZh94AAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
-            "match": {
-              "location": "C:\\dev\\Coffee\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";\"someone-put-something-in-the-machine!\"",
-        "keyword": "Scenario",
-        "line": 82,
-        "name": "\"Someone put something in the machine!\"",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 72935
-            },
-            "line": 61,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:17"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is available",
-            "result": {
-              "status": "passed",
-              "duration": 45948
-            },
             "line": 62,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:34"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
+            "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 59442
+              "duration": 136023
             },
             "line": 63,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:45"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 83145
-            },
-            "line": 64,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:65"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
             }
           },
           {
@@ -1042,11 +1051,11 @@
             "name": "the user wants milk",
             "result": {
               "status": "passed",
-              "duration": 59807
+              "duration": 96274
             },
-            "line": 65,
+            "line": 64,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:84"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:72"
             }
           },
           {
@@ -1054,13 +1063,25 @@
             "keyword": "When ",
             "name": "the user inserts a \"Skjortknapp\" kr coin",
             "result": {
-              "status": "failed",
-              "duration": 1215454,
-              "error_message": "AssertionError: Expected the runtime error \"You must insert money not Skjortknapp\": expected [Function] to throw 'Error' but 'Error: You must insert money, not Skjortknapp' was thrown\n    at Function.assert.throws (C:\\dev\\Coffee\\node_modules\\chai\\lib\\chai\\interface\\assert.js:1120:52)\n    at createWorld.<anonymous> (C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:120:12)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "status": "passed",
+              "duration": 212604
+            },
+            "line": 65,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 105025
             },
             "line": 66,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:112"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1068,23 +1089,25 @@
             "keyword": "And ",
             "name": "the user inserts a 1 kr coin",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 100285
             },
             "line": 67,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
+            "name": "the user inserts a 0 kr coin",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 92992
             },
             "line": 68,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1092,11 +1115,12 @@
             "keyword": "And ",
             "name": "the user inserts a 0 kr coin",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 76946
             },
             "line": 69,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1104,11 +1128,12 @@
             "keyword": "And ",
             "name": "the user inserts a 0 kr coin",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 78405
             },
             "line": 70,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1116,11 +1141,12 @@
             "keyword": "And ",
             "name": "the user inserts a 0 kr coin",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 82052
             },
             "line": 71,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1128,11 +1154,12 @@
             "keyword": "And ",
             "name": "the user inserts a 0 kr coin",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 79134
             },
             "line": 72,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1140,11 +1167,12 @@
             "keyword": "And ",
             "name": "the user inserts a 0 kr coin",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 76946
             },
             "line": 73,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1152,23 +1180,12 @@
             "keyword": "And ",
             "name": "the user inserts a 0 kr coin",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 75852
             },
             "line": 74,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 75,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1176,11 +1193,12 @@
             "keyword": "And ",
             "name": "presses the \"start\" button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 73664
             },
-            "line": 76,
+            "line": 75,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:135"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
             }
           },
           {
@@ -1188,11 +1206,12 @@
             "keyword": "Then ",
             "name": "the user recieves 0 cup of coffee.",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 111590
             },
-            "line": 77,
+            "line": 76,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:153"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
             }
           },
           {
@@ -1200,17 +1219,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1709116999
+              "duration": 1653455421
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAABJ0AAASdAHeZh94AAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
-              "location": "C:\\dev\\Coffee\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1220,7 +1233,7 @@
       {
         "id": ";\"this-person-did-not-want-milk\"",
         "keyword": "Scenario",
-        "line": 107,
+        "line": 105,
         "name": "\"This person did not want milk\"",
         "steps": [
           {
@@ -1229,11 +1242,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 71476
+              "duration": 138576
             },
-            "line": 87,
+            "line": 85,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:17"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
             }
           },
           {
@@ -1242,11 +1255,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 48502
+              "duration": 126906
             },
-            "line": 88,
+            "line": 86,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:34"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -1255,11 +1268,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 74393
+              "duration": 117425
             },
-            "line": 89,
+            "line": 87,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
             }
           },
           {
@@ -1268,11 +1281,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 43032
+              "duration": 192912
             },
-            "line": 90,
+            "line": 88,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:65"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
             }
           },
           {
@@ -1281,11 +1294,11 @@
             "name": "the user does not want milk",
             "result": {
               "status": "passed",
-              "duration": 133106
+              "duration": 254177
             },
-            "line": 91,
+            "line": 89,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:183"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:148"
             }
           },
           {
@@ -1294,11 +1307,37 @@
             "name": "the user inserts a 10 kr coin",
             "result": {
               "status": "passed",
-              "duration": 45220
+              "duration": 110131
+            },
+            "line": 90,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 103203
+            },
+            "line": 91,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 81686
             },
             "line": 92,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1307,11 +1346,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 42302
+              "duration": 82416
             },
             "line": 93,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1320,11 +1359,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 55066
+              "duration": 87156
             },
             "line": 94,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1333,11 +1372,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 57983
+              "duration": 80957
             },
             "line": 95,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1346,11 +1385,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 59077
+              "duration": 79864
             },
             "line": 96,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1359,11 +1398,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 37926
+              "duration": 84604
             },
             "line": 97,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1372,11 +1411,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 32820
+              "duration": 85698
             },
             "line": 98,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1385,37 +1424,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 67829
+              "duration": 89345
             },
             "line": 99,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 38291
-            },
-            "line": 100,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 58348
-            },
-            "line": 101,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1424,11 +1437,11 @@
             "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 49960
+              "duration": 71112
             },
-            "line": 102,
+            "line": 100,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:135"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
             }
           },
           {
@@ -1437,11 +1450,11 @@
             "name": "the user recieves 1 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 30268
+              "duration": 88980
             },
-            "line": 103,
+            "line": 101,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:153"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
             }
           },
           {
@@ -1449,11 +1462,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1627423751
+              "duration": 1634533278
             },
             "hidden": true,
             "match": {
-              "location": "C:\\dev\\Coffee\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1463,7 +1476,7 @@
       {
         "id": ";\"someone-pressed-cancel-before-the-coffe-was-made\"",
         "keyword": "Scenario",
-        "line": 131,
+        "line": 129,
         "name": "\"Someone pressed cancel before the coffe was made\"",
         "steps": [
           {
@@ -1472,11 +1485,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 99191
+              "duration": 180148
             },
-            "line": 111,
+            "line": 109,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:17"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
             }
           },
           {
@@ -1485,11 +1498,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 84969
+              "duration": 142222
             },
-            "line": 112,
+            "line": 110,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:34"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -1498,11 +1511,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 114143
+              "duration": 170302
             },
-            "line": 113,
+            "line": 111,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
             }
           },
           {
@@ -1511,11 +1524,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 107579
+              "duration": 142587
             },
-            "line": 114,
+            "line": 112,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:65"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
             }
           },
           {
@@ -1524,11 +1537,11 @@
             "name": "the user does not want milk",
             "result": {
               "status": "passed",
-              "duration": 84968
+              "duration": 146963
             },
-            "line": 115,
+            "line": 113,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:183"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:148"
             }
           },
           {
@@ -1537,11 +1550,37 @@
             "name": "the user inserts a 5 kr coin",
             "result": {
               "status": "passed",
-              "duration": 76217
+              "duration": 143681
+            },
+            "line": 114,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 161185
+            },
+            "line": 115,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 145869
             },
             "line": 116,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1550,11 +1589,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 87887
+              "duration": 127635
             },
             "line": 117,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1563,11 +1602,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 79499
+              "duration": 136752
             },
             "line": 118,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1576,11 +1615,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 87886
+              "duration": 152069
             },
             "line": 119,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1589,11 +1628,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 84969
+              "duration": 139305
             },
             "line": 120,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1602,11 +1641,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 330393
+              "duration": 138576
             },
             "line": 121,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1615,11 +1654,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 78040
+              "duration": 122894
             },
             "line": 122,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1628,37 +1667,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 52148
+              "duration": 124718
             },
             "line": 123,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 47042
-            },
-            "line": 124,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 53242
-            },
-            "line": 125,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1666,13 +1679,12 @@
             "keyword": "And ",
             "name": "presses the \"cancel\" button",
             "result": {
-              "status": "failed",
-              "duration": 143681,
-              "error_message": "AssertionError: Did you press the cancel button? Here's your money back...\n    at createWorld.<anonymous> (C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:147:7)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+              "status": "passed",
+              "duration": 110496
             },
-            "line": 126,
+            "line": 124,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:135"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
             }
           },
           {
@@ -1680,11 +1692,12 @@
             "keyword": "Then ",
             "name": "the user recieves 0 cup of coffee.",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 196558
             },
-            "line": 127,
+            "line": 125,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:153"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
             }
           },
           {
@@ -1692,17 +1705,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1713186018
+              "duration": 1644637632
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAABJ0AAASdAHeZh94AAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
-              "location": "C:\\dev\\Coffee\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1712,7 +1719,7 @@
       {
         "id": ";\"someone-pressed-cancel-after-the-coffe-was-made\"",
         "keyword": "Scenario",
-        "line": 156,
+        "line": 155,
         "name": "\"Someone pressed cancel after the coffe was made\"",
         "steps": [
           {
@@ -1721,11 +1728,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 60536
+              "duration": 115601
             },
-            "line": 135,
+            "line": 133,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:17"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
             }
           },
           {
@@ -1734,11 +1741,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 64182
+              "duration": 120707
             },
-            "line": 136,
+            "line": 134,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:34"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
             }
           },
           {
@@ -1747,11 +1754,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 50325
+              "duration": 92262
             },
-            "line": 137,
+            "line": 135,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:45"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
             }
           },
           {
@@ -1760,11 +1767,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 48866
+              "duration": 106485
             },
-            "line": 138,
+            "line": 136,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:65"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
             }
           },
           {
@@ -1773,11 +1780,11 @@
             "name": "the user does not want milk",
             "result": {
               "status": "passed",
-              "duration": 36467
+              "duration": 79863
             },
-            "line": 139,
+            "line": 137,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:183"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:148"
             }
           },
           {
@@ -1786,11 +1793,37 @@
             "name": "the user inserts a 5 kr coin",
             "result": {
               "status": "passed",
-              "duration": 49231
+              "duration": 78040
+            },
+            "line": 138,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 78040
+            },
+            "line": 139,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 95909
             },
             "line": 140,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1799,11 +1832,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 36467
+              "duration": 90439
             },
             "line": 141,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1812,11 +1845,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 41208
+              "duration": 81322
             },
             "line": 142,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1825,11 +1858,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 32091
+              "duration": 73663
             },
             "line": 143,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1838,11 +1871,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 33914
+              "duration": 73299
             },
             "line": 144,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1851,11 +1884,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 33185
+              "duration": 120342
             },
             "line": 145,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1864,11 +1897,11 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 33550
+              "duration": 76581
             },
             "line": 146,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
@@ -1877,37 +1910,289 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 32456
+              "duration": 80957
             },
             "line": 147,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:81"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
+            "name": "presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 33186
+              "duration": 62359
             },
             "line": 148,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 66005
+            },
+            "line": 149,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
+            "name": "presses the \"cancel\" button",
             "result": {
               "status": "passed",
-              "duration": 34279
+              "duration": 45584
             },
-            "line": 149,
+            "line": 150,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:93"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1656941329
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";\"person-paid-for-with-swish\"",
+        "keyword": "Scenario",
+        "line": 170,
+        "name": "\"Person paid for with swish\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 132741
+            },
+            "line": 159,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 94086
+            },
+            "line": 160,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 104662
+            },
+            "line": 161,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 86428
+            },
+            "line": 162,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user does not want milk",
+            "result": {
+              "status": "passed",
+              "duration": 86063
+            },
+            "line": 163,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:148"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user uses swishes 10 kr to pay",
+            "result": {
+              "status": "passed",
+              "duration": 203852
+            },
+            "line": 164,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 73664
+            },
+            "line": 165,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 72205
+            },
+            "line": 166,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1631079096
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";\"person-paid-to-little-with-swish\"",
+        "keyword": "Scenario",
+        "line": 185,
+        "name": "\"Person paid to little with swish\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 133471
+            },
+            "line": 174,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 74028
+            },
+            "line": 175,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 105025
+            },
+            "line": 176,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 94085
+            },
+            "line": 177,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user does not want milk",
+            "result": {
+              "status": "passed",
+              "duration": 68194
+            },
+            "line": 178,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:148"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user uses swishes 1 kr to pay",
+            "result": {
+              "status": "passed",
+              "duration": 81322
+            },
+            "line": 179,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 57983
+            },
+            "line": 180,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
             }
           },
           {
@@ -1916,25 +2201,11 @@
             "name": "the user recieves 0 cup of coffee.",
             "result": {
               "status": "passed",
-              "duration": 94815
+              "duration": 103202
             },
-            "line": 150,
+            "line": 181,
             "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:153"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"cancel\" button",
-            "result": {
-              "status": "failed",
-              "duration": 163374,
-              "error_message": "AssertionError: Did you press the cancel button? Here's your money back...\n    at createWorld.<anonymous> (C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:147:7)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
-            },
-            "line": 151,
-            "match": {
-              "location": "C:\\dev\\Coffee\\step-definitions\\coffee-machine.js:135"
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
             }
           },
           {
@@ -1942,17 +2213,476 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1710790483
+              "duration": 1649584419
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAABJ0AAASdAHeZh94AAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
-              "location": "C:\\dev\\Coffee\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";\"someone-pressed-start-with-no-money\"",
+        "keyword": "Scenario",
+        "line": 199,
+        "name": "\"Someone pressed start with no money\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 115237
+            },
+            "line": 189,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 114872
+            },
+            "line": 190,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 107578
+            },
+            "line": 191,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 90439
+            },
+            "line": 192,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user does not want milk",
+            "result": {
+              "status": "passed",
+              "duration": 69288
+            },
+            "line": 193,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:148"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 61630
+            },
+            "line": 194,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 97003
+            },
+            "line": 195,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1659141035
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";\"machine-ran-out-of-ground-coffee\"",
+        "keyword": "Scenario",
+        "line": 213,
+        "name": "\"Machine ran out of ground coffee\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 179419
+            },
+            "line": 203,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 157538
+            },
+            "line": 204,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine ran out of ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 311431
+            },
+            "line": 205,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:178"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 182336
+            },
+            "line": 206,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user does not want milk",
+            "result": {
+              "status": "passed",
+              "duration": 160092
+            },
+            "line": 207,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:148"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 129459
+            },
+            "line": 208,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 156809
+            },
+            "line": 209,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2160165401
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";\"thirsty-customer,-wants-20-cups\"",
+        "keyword": "Scenario",
+        "line": 228,
+        "name": "\"Thirsty customer, wants 20 cups\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 186713
+            },
+            "line": 217,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 4447914
+            },
+            "line": 218,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 166290
+            },
+            "line": 219,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 175043
+            },
+            "line": 220,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user does not want milk",
+            "result": {
+              "status": "passed",
+              "duration": 168479
+            },
+            "line": 221,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:148"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user uses swishes 200 kr to pay",
+            "result": {
+              "status": "passed",
+              "duration": 184525
+            },
+            "line": 222,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 100650
+            },
+            "line": 223,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 20 cup of coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 139669
+            },
+            "line": 224,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2149114721
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";\"we-ran-out-of-cups\"",
+        "keyword": "Scenario",
+        "line": 242,
+        "name": "\"We ran out of cups\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 166656
+            },
+            "line": 232,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 146963
+            },
+            "line": 233,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 137482
+            },
+            "line": 234,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has no more plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 484650
+            },
+            "line": 235,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:187"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user uses swishes 10 kr to pay",
+            "result": {
+              "status": "passed",
+              "duration": 175043
+            },
+            "line": 236,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 105390
+            },
+            "line": 237,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 152798
+            },
+            "line": 238,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\step-definitions\\coffee-machine.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1661209824
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\dev\\Coffee-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1962,9 +2692,9 @@
     ],
     "id": "",
     "keyword": "Feature",
-    "line": 3,
+    "line": 1,
     "name": "",
     "tags": [],
-    "uri": "C:/dev/Coffee/features/coffee-machine.feature"
+    "uri": "C:/dev/Coffee-master/features/coffee-machine.feature"
   }
 ]

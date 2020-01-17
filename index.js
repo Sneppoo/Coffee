@@ -56,7 +56,10 @@ class CoffeeMachine {
   }
 
   cancelButton() {
-    return this.insertedMoney;
+    if(insertMoney <=10) {
+      return this.insertedMoney;
+
+    }else return "No money back once, you've gotten your coffee"
   }
 
   startButton() {
@@ -68,12 +71,14 @@ class CoffeeMachine {
 
     // FOR NOW JUST RETURN "here's your coffee"
     // if there is enough money inserted
-    if (this.insertedMoney >= this.pricePerCup) {
+    
+    if (this.insertedMoney >= this.pricePerCup && this.pluggedIn == true && this.connectedToWater == true) {
+      
       return "here's your coffee";
+      
     }
   }
 
-  // internals
 
   makeCoffee() {
     this.amountOfCoffee - 13;
@@ -86,11 +91,17 @@ class CoffeeMachine {
   }
 
   dispenseCup() {
-
+    this.numberOfCups -1;
   }
 
   dispenseCoffee() {
+    this.amountOfCoffee -13;
+  }
 
+  paidForWithSwish(){
+    if (this.insertedMoney >= this.pricePerCup) 
+      return "Here's your coffee";
+      else "Du måste swisha mer pengar"
   }
 
   checkIfEnoughCoffeeForACup() {
